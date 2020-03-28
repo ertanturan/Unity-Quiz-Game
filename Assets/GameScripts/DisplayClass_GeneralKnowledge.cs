@@ -38,6 +38,8 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         NextSceneButton.gameObject.SetActive(false);
         transprentLayer.gameObject.SetActive(false);
         NextButton.gameObject.SetActive(false);
+        NextSceneButton.transform.parent.gameObject.SetActive(false);
+
         Questions = new List<QuestionTemplate>();
 
         Questions.Add(new QuestionTemplate(0, "What is the color of SUN ?", "Orange", "Yellow", "Red", "White", "White"));
@@ -149,7 +151,7 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
 
     public void NextButtonClick()
     {
-        Debug.Log("=========================              " + Questions.Count);
+        //Debug.Log("=========================              " + Questions.Count);
         timeLeft = 10f;
         transprentLayer.gameObject.SetActive(false);
         NextButton.gameObject.SetActive(false);
@@ -180,10 +182,12 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
             NextButton.interactable = false;
             NextButton.gameObject.SetActive(false);
             NextSceneButton.gameObject.SetActive(true);
+            NextSceneButton.transform.parent.gameObject.SetActive(true);
+
         }
 
         ramdomNumber = UnityEngine.Random.Range(0, Questions.Count);
-        Debug.Log("random number =              " + ramdomNumber);
+        //Debug.Log("random number =              " + ramdomNumber);
         for (int i = 0; i < Questions.Count; i++)
         {
 
