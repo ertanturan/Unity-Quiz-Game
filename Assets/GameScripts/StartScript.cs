@@ -5,21 +5,21 @@ using com.microeyes.admob;
 public class StartScript : MonoBehaviour {
 
 	void Start () {
-		BannerAd l_newBanner = AdmobManager.Prepare<BannerAd>("Banner-1");
-		l_newBanner.AdUnitId = "ca-app-pub-6065714673957825/1329600461";
-		//l_newBanner.SetPosition(EPosition.CENTER_HORIZONTAL, EPosition.TOP);
+		//BannerAd l_newBanner = AdmobManager.Prepare<BannerAd>("Banner-1");
+		//l_newBanner.AdUnitId = "ca-app-pub-6065714673957825/1329600461";
+		////l_newBanner.SetPosition(EPosition.CENTER_HORIZONTAL, EPosition.TOP);
 		
-		l_newBanner.BannerType = EBannerAdType.BANNER;
-		l_newBanner.Orientation = EOrientation.HORIZONTAL;
-		l_newBanner.AnimInType = EAnimationInType.FADE_IN;
-		l_newBanner.AnimOutType = EAnimationOutType.SLIDE_OUT_RIGHT;
-		l_newBanner.SetPosition(EPosition.CENTER, EPosition.BOTTOM);
+		//l_newBanner.BannerType = EBannerAdType.BANNER;
+		//l_newBanner.Orientation = EOrientation.HORIZONTAL;
+		//l_newBanner.AnimInType = EAnimationInType.FADE_IN;
+		//l_newBanner.AnimOutType = EAnimationOutType.SLIDE_OUT_RIGHT;
+		//l_newBanner.SetPosition(EPosition.CENTER, EPosition.BOTTOM);
 		
-		l_newBanner.Create();
+		//l_newBanner.Create();
 		
-		l_newBanner.Load();
+		//l_newBanner.Load();
 
-		Intestinal_Ad_Create ();
+		//Intestinal_Ad_Create ();
 
 		StartCoroutine("MoveScreen");
 	}
