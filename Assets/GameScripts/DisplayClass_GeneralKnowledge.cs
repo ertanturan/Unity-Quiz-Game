@@ -49,10 +49,10 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         Questions.Add(new QuestionTemplate(2, "78 sayfalık kitabın birinci gün 23, ikinci gün 36 sayfasını okudum. Geriye kaç sayfa kaldı?", "8", "19", "23", "36", "19"));
 
         Questions.Add(new QuestionTemplate(3, "64 sayfalık kitabın birinci gün 21 sayfasını okudum. İkinci gün ise birinci günden 8 sayfa eksik okudum. Geriye okunacak kaç sayfa kaldı?",
-            "", "", "", "", ""));
+            "18", "30", "25", "26", "30"));
 
-        Questions.Add(new QuestionTemplate(4, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(4, "6  düzine kalemin 9 eksiği kaçtır?",
+            "43", "63", "33", "29", "63"));
 
         Questions.Add(new QuestionTemplate(5, "",
             "", "", "", "", ""));
