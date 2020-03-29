@@ -96,13 +96,28 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         Questions.Add(new QuestionTemplate(18, "Berat 450 sorunun 175 tanesini çözdü. Geriye kaç soru kaldı?",
             "168", "175", "275", "307", "275"));
 
-        Questions.Add(new QuestionTemplate(18, "Berna 603 tane cevizin 284 tanesini yedi. Berna’nın kaç cevizi kaldı?",
+        Questions.Add(new QuestionTemplate(19, "Berna 603 tane cevizin 284 tanesini yedi. Berna’nın kaç cevizi kaldı?",
             "319", "218", "547", "321", "319"));
 
-        Questions.Add(new QuestionTemplate(18, "Görkem 800 sayfalık hikaye kitabının önce 252, sonra da 191 sayfasını okudu. Geriye kaç sayfa kaldı?",
+        Questions.Add(new QuestionTemplate(20, "Görkem 800 sayfalık hikaye kitabının önce 252, sonra da 191 sayfasını okudu. Geriye kaç sayfa kaldı?",
             "255", "357", "355", "245", "357"));
 
-        Questions.Add(new QuestionTemplate(18, "",
+        Questions.Add(new QuestionTemplate(21, "Bir kasadaki 90 portakalın önce 70 tanesi daha sonra da 13tanesi satılıyor. Kasada kaç tane portakal kalmıştır?",
+            "5", "7", "9", "19", "7"));
+
+        Questions.Add(new QuestionTemplate(22, "Bir dalda duran 40 kuşun önce 7, sonra da 17 si uçtu. Dalda kaç kuş kalmıştır?",
+            "14", "16", "28", "32", "16"));
+
+        Questions.Add(new QuestionTemplate(23, "630 cevizin 145 tanesini Yaren, 252 tanesini de Bengü yedi. Geriye kaç tane ceviz kaldı?",
+            "167", "233", "345", "433", "233"));
+
+        Questions.Add(new QuestionTemplate(24, "",
+            "", "", "", "", ""));
+
+        Questions.Add(new QuestionTemplate(25, "",
+            "", "", "", "", ""));
+
+        Questions.Add(new QuestionTemplate(26, "",
             "", "", "", "", ""));
 
 
