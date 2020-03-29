@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+
 public class DisplayClass_GeneralKnowledge : MonoBehaviour
 {
 
@@ -37,16 +37,18 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         GameControl.control.TotalRounds = GameControl.control.TotalRounds + 1;
         NextSceneButton.gameObject.SetActive(false);
         transprentLayer.gameObject.SetActive(false);
-        NextButton.gameObject.SetActive(false);
+        //NextButton.gameObject.SetActive(false);
         NextSceneButton.transform.parent.gameObject.SetActive(false);
 
         Questions = new List<QuestionTemplate>();
 
-        Questions.Add(new QuestionTemplate(0, "Ayşe 32, Sema 28 yaşındadır. Ayşe Sema’dan kaç yaş büyüktür?", "4", "13", "14", "24", "4"));
+        Questions.Add(new QuestionTemplate(0, "Ayşe 32, Sema 28 yaşındadır. Ayşe Sema’dan kaç yaş büyüktür?",
+            "4", "13", "14", "24", "4"));
 
         Questions.Add(new QuestionTemplate(1, "Kırdan 67 papatya topladım. Papatyalardan 13 tanesini anneme, 26 tanesini teyzeme verdim. Geri kalanını da vazoya koyduk. Vazoda kaç çiçek vardır?", "17", "28", "31", "28", "28"));
 
-        Questions.Add(new QuestionTemplate(2, "78 sayfalık kitabın birinci gün 23, ikinci gün 36 sayfasını okudum. Geriye kaç sayfa kaldı?", "8", "19", "23", "36", "19"));
+        Questions.Add(new QuestionTemplate(2, "78 sayfalık kitabın birinci gün 23, ikinci gün 36 sayfasını okudum. Geriye kaç sayfa kaldı?",
+            "8", "19", "23", "36", "19"));
 
         Questions.Add(new QuestionTemplate(3, "64 sayfalık kitabın birinci gün 21 sayfasını okudum. İkinci gün ise birinci günden 8 sayfa eksik okudum. Geriye okunacak kaç sayfa kaldı?",
             "18", "30", "25", "26", "30"));
@@ -67,7 +69,7 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
             "48", "60", "32", "18", "60"));
 
         Questions.Add(new QuestionTemplate(9, "84 metrelik yolun 26 metresini yürüyen Zeynep'in yürüyecek kaç metre yolu kalmıştır?",
-            "49", "58", "68", "61", "59"));
+            "49", "58", "68", "61", "58"));
 
         Questions.Add(new QuestionTemplate(10, "Bir manav pazara getirdiği 345 kilogram elmasının sabah 132 kilogramını, öğleden sonra da 87 kilogramını sattı. Geriye kaç kilogram elma kalır?",
             "124", "126", "213", "250", "126"));
@@ -88,7 +90,7 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
             "543", "461", "360", "407", "461"));
 
         Questions.Add(new QuestionTemplate(16, "Ceren’in 91tane fındığı vardı, 70  tanesini yedi. Geriye kaç fındık kaldı?",
-            "27", "23", "21", "18", "18"));
+            "27", "23", "21", "18", "21"));
 
         Questions.Add(new QuestionTemplate(17, "Burç 83 sayfalık hikaye kitabının 40sayfasını okudu. Geriye kaç sayfa kaldı?",
             "68", "43", "35", "24", "43"));
@@ -111,14 +113,29 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         Questions.Add(new QuestionTemplate(23, "630 cevizin 145 tanesini Yaren, 252 tanesini de Bengü yedi. Geriye kaç tane ceviz kaldı?",
             "167", "233", "345", "433", "233"));
 
-        Questions.Add(new QuestionTemplate(24, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(24, "450 soruluk bir test kitabında  154 tane matematik ve 172 tane Türkçe sorusu vardır. Geriye kalan Hayat bilgisi sorusu olduğuna göre kaç tane hayat bilgisi sorusu vardır?",
+            "72", "74", "124", "127", "124"));
 
-        Questions.Add(new QuestionTemplate(25, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(25, "Ahmet’in 79 misketi vardı. Bunlardan 28 tanesini arkadaşı Can’a verdi. Geriye kaç misketi kalmıştır?",
+            "51", "43", "61", "72", "51"));
 
-        Questions.Add(new QuestionTemplate(26, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(26, "Bir çiftçi tarlasından 350 kg ürün almıştır. Ürünün 50 kilogramı çürümüştür. Geriye kaç kilogram ürün kalmıştır ?",
+            "170", "300", "255", "270", "300"));
+
+        Questions.Add(new QuestionTemplate(27, "Bir otobüste 100 yolcu vardır. Birinci durakta 10 kişi, ikinci durakta 15 kişi indiğine göre otobüste kaç yolcu kalmıştır ?",
+            "60", "85", "75", "78", "75"));
+
+
+        Questions.Add(new QuestionTemplate(28, "Sevil 24 yaşındadır kardeşi ondan 9 yaş küçük olduğuna göre kardeşi kaç yaşındadır ?",
+            "13", "15", "18", "19", "15"));
+
+
+        Questions.Add(new QuestionTemplate(29, "Ceyda bayramda 149 şeker toplamıştır. Şekerlerin 30unu dağıtmış 12 sinide yemiştir. Ceyda’nın kaç şekeri kalmıştır ?",
+            "100", "103", "107", "117", "107"));
+
+
+        Questions.Add(new QuestionTemplate(30, "Bir grup öğrenci okul bahçesine 135 fidan dikmiştir. Fidanların 15i kurulduğuna göre kaç fidan kalmıştır ?",
+            "79", "97", "119", "120", "120"));
 
 
         /*foreach (QuestionTemplate Ques in Questions) 
@@ -137,9 +154,8 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
     public void NextButtonClick()
     {
         //Debug.Log("=========================              " + Questions.Count);
-        timeLeft = 10f;
         transprentLayer.gameObject.SetActive(false);
-        NextButton.gameObject.SetActive(false);
+        //NextButton.gameObject.SetActive(false);
         GameControl.control.ACorrectAnswer = false;
         GameControl.control.BCorrectAnswer = false;
         GameControl.control.CCorrectAnswer = false;
@@ -187,36 +203,9 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         }
 
     }
-    public Text TimerText;
-    public float timeLeft = 10f;
-
-    IEnumerator TimerScript()
-    {
-        if (QuestionCount == TotalQuestionPerRound + 1)
-        {
-            NextButton.interactable = false;
-            NextButton.gameObject.SetActive(false);
-            NextSceneButton.gameObject.SetActive(true);
-            timeLeft = -1f;
-            NextScreen();
-        }
-        yield return new WaitForSeconds(1f);
-        timeLeft -= Time.deltaTime;
-        TimerText.text = Mathf.Round(timeLeft).ToString();
-        if (Mathf.Round(timeLeft) == 0)
-        {
-            NextButtonClick();
-
-            //yield return new WaitForSeconds(1f);
-            timeLeft = 10f;
-        }
-
-    }
 
     void Update()
     {
-
-        StartCoroutine("TimerScript");
 
         ScoreFieldText.text = "#:" + GameControl.control.score;
     }
