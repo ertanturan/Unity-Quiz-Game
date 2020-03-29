@@ -57,23 +57,23 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         Questions.Add(new QuestionTemplate(5, "5 deste tebeşirden 13 tanesini kullandık. Geriye kaç tebeşir kaldı?",
             "23", "37", "44", "48", "37"));
 
-        Questions.Add(new QuestionTemplate(6, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(6, "Bir otobüste 34 yolcu var. İlk durakta 23 yolcu indi, 19 yolcu bindi. İkinci durağa hareket eden otobüste kaç yolcu vardır?",
+            "17", "23", "30", "38", "30"));
 
-        Questions.Add(new QuestionTemplate(7, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(7, "Sınıfımızın mevcudu 37'dir. Bunun 19'u kız olduğuna göre erkek öğrenci sayısı kaçtır?",
+            "18", "23", "35", "11", "18"));
 
-        Questions.Add(new QuestionTemplate(8, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(8, "Fatma, 120 sayfalık bir kitabın 1.gün 36 sayfasını, 2.gün 24 sayfasını okudu. Geriye okumadığı kaç sayfa kaldı?",
+            "48", "60", "32", "18", "60"));
 
-        Questions.Add(new QuestionTemplate(9, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(9, "84 metrelik yolun 26 metresini yürüyen Zeynep'in yürüyecek kaç metre yolu kalmıştır?",
+            "49", "58", "68", "61", "59"));
 
-        Questions.Add(new QuestionTemplate(10, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(10, "Bir manav pazara getirdiği 345 kilogram elmasının sabah 132 kilogramını, öğleden sonra da 87 kilogramını sattı. Geriye kaç kilogram elma kalır?",
+            "124", "126", "213", "250", "126"));
 
-        Questions.Add(new QuestionTemplate(11, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(11, "Bir tren 214 yolcu ile yola çıktı. İlk durakta 86 kişi, ikinci durakta 27 kişi trenden indi. Trende kalan yolcu sayısı kaçtır?",
+            "89", "100", "101", "110", "101"));
 
         Questions.Add(new QuestionTemplate(12, "",
             "", "", "", "", ""));
