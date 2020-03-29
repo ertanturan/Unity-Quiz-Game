@@ -75,16 +75,34 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         Questions.Add(new QuestionTemplate(11, "Bir tren 214 yolcu ile yola çıktı. İlk durakta 86 kişi, ikinci durakta 27 kişi trenden indi. Trende kalan yolcu sayısı kaçtır?",
             "89", "100", "101", "110", "101"));
 
-        Questions.Add(new QuestionTemplate(12, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(12, "Kaan 49 misketinin 12 ini kaybetti. Babası ona 24 tane daha misket aldı. Kaan'ın kaç misketi oldu?",
+            "67", "54", "61", "49", "61"));
 
-        Questions.Add(new QuestionTemplate(13, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(13, "Hülya'nın 47 tane cevizi var. Cevizlerinin 12 tanesini kardeşine, 7 tanesini de ablasına verdi.Hülya'nın kaç tane cevizi kaldı?",
+            "17", "28", "33", "26", "28"));
 
-        Questions.Add(new QuestionTemplate(14, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(14, "Bir sürahi 12 bardak su ile doluyor. Dolu sürahiden 5 bardak su içildiğinde sürahide kaç bardak su kalır?",
+            "3", "5", "7", "9", "7"));
 
-        Questions.Add(new QuestionTemplate(15, "",
+        Questions.Add(new QuestionTemplate(15, "Bir okuldaki 836 öğrencinin 375 tanesi erkek olduğuna göre kaç tane kız öğrenci vardır?",
+            "543", "461", "360", "407", "461"));
+
+        Questions.Add(new QuestionTemplate(16, "Ceren’in 91tane fındığı vardı, 70  tanesini yedi. Geriye kaç fındık kaldı?",
+            "27", "23", "21", "18", "18"));
+
+        Questions.Add(new QuestionTemplate(17, "Burç 83 sayfalık hikaye kitabının 40sayfasını okudu. Geriye kaç sayfa kaldı?",
+            "68", "43", "35", "24", "43"));
+
+        Questions.Add(new QuestionTemplate(18, "Berat 450 sorunun 175 tanesini çözdü. Geriye kaç soru kaldı?",
+            "168", "175", "275", "307", "275"));
+
+        Questions.Add(new QuestionTemplate(18, "Berna 603 tane cevizin 284 tanesini yedi. Berna’nın kaç cevizi kaldı?",
+            "319", "218", "547", "321", "319"));
+
+        Questions.Add(new QuestionTemplate(18, "Görkem 800 sayfalık hikaye kitabının önce 252, sonra da 191 sayfasını okudu. Geriye kaç sayfa kaldı?",
+            "255", "357", "355", "245", "357"));
+
+        Questions.Add(new QuestionTemplate(18, "",
             "", "", "", "", ""));
 
 
