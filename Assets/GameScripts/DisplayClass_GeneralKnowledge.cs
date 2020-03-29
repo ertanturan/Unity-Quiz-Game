@@ -54,8 +54,8 @@ public class DisplayClass_GeneralKnowledge : MonoBehaviour
         Questions.Add(new QuestionTemplate(4, "6  düzine kalemin 9 eksiği kaçtır?",
             "43", "63", "33", "29", "63"));
 
-        Questions.Add(new QuestionTemplate(5, "",
-            "", "", "", "", ""));
+        Questions.Add(new QuestionTemplate(5, "5 deste tebeşirden 13 tanesini kullandık. Geriye kaç tebeşir kaldı?",
+            "23", "37", "44", "48", "37"));
 
         Questions.Add(new QuestionTemplate(6, "",
             "", "", "", "", ""));
